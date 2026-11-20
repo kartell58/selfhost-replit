@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { nanoid } from 'nanoid';
 import { readDb, upsertProject, deleteProject, getProject } from './db.js';
+export { getProject }; 
 import { templates } from './templates.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
